@@ -17,7 +17,6 @@ object "C_3" {
     code {
         {
             /// @src 0:82:95
-            mstore(64, 128)
             if callvalue() { revert(0, 0) }
             let _1 := datasize("C_3_deployed")
             codecopy(128, dataoffset("C_3_deployed"), _1)
@@ -28,7 +27,6 @@ object "C_3" {
         code {
             {
                 /// @src 0:82:95
-                mstore(64, 128)
                 revert(0, 0)
             }
         }
@@ -55,7 +53,6 @@ object "D_16" {
     code {
         {
             /// @src 0:96:165
-            mstore(64, 128)
             if callvalue() { revert(0, 0) }
             let _1 := datasize("D_16_deployed")
             codecopy(128, dataoffset("D_16_deployed"), _1)
@@ -104,7 +101,6 @@ object "D_16" {
             code {
                 {
                     /// @src 0:82:95
-                    mstore(64, 128)
                     if callvalue() { revert(0, 0) }
                     let _1 := datasize("C_3_deployed")
                     codecopy(128, dataoffset("C_3_deployed"), _1)
@@ -115,7 +111,6 @@ object "D_16" {
                 code {
                     {
                         /// @src 0:82:95
-                        mstore(64, 128)
                         revert(0, 0)
                     }
                 }

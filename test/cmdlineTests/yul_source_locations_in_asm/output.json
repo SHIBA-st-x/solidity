@@ -1,5 +1,4 @@
 {"contracts":{"C":{"C":{"evm":{"assembly":"    /* \"C\":79:428  contract C... */
-  mstore(0x40, 0xa0)
   jumpi(tag_1, iszero(callvalue))
   0x00
   dup1
@@ -431,7 +430,6 @@ sub_0: assembly {
     auxdata: <AUXDATA REMOVED>
 }
 "}}},"D":{"D":{"evm":{"assembly":"    /* \"D\":91:166  contract D is C(3)... */
-  mstore(0x40, 0xa0)
   jumpi(tag_1, iszero(callvalue))
   0x00
   dup1
@@ -504,12 +502,8 @@ tag_4:
 tag_5:
     /* \"C\":147:149  42 */
   mstore(0x80, 0x2a)
-    /* \"D\":107:108  3 */
-  0x03
-  0x00
-    /* \"D\":91:166  contract D is C(3)... */
-  sstore
   sub(shl(0xff, 0x01), 0x04)
+    /* \"D\":91:166  contract D is C(3)... */
   dup2
   sgt
   0x01

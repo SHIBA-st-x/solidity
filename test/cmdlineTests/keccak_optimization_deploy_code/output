@@ -11,7 +11,6 @@ object "C_12" {
     code {
         {
             /// @src 0:62:463
-            mstore(64, 128)
             if callvalue() { revert(0, 0) }
             /// @src 0:103:275
             mstore(0, 100)
@@ -26,10 +25,8 @@ object "C_12" {
         code {
             {
                 /// @src 0:62:463
-                mstore(64, 128)
                 if callvalue() { revert(0, 0) }
                 /// @src 0:317:454
-                mstore(0, 100)
                 sstore(0, 17385872270140913825666367956517731270094621555228275961425792378517567244498)
                 /// @src 0:62:463
                 stop()

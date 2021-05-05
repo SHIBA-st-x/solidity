@@ -169,6 +169,8 @@ add_library(yul
 	optimiser/RedundantAssignEliminator.h
 	optimiser/RedundantStoreBase.cpp
 	optimiser/RedundantStoreBase.h
+	optimiser/RedundantStoreEliminator.cpp
+	optimiser/RedundantStoreEliminator.h
 	optimiser/Rematerialiser.cpp
 	optimiser/Rematerialiser.h
 	optimiser/SMTSolver.cpp
